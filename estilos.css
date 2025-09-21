@@ -1,0 +1,122 @@
+
+body{
+    background-color: rgb(57, 56, 69);
+    font-family: 'Courier New', Courier, monospace;
+}
+#menu .logo{
+    font-size: xx-large;
+}
+#menu{
+    width: 100vw;
+    height: 20vh;
+    background-color: #191c32;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2mm;
+    font-size: large;
+}
+#lista a{
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    display: flex; 
+  list-style: none; 
+  padding: 0px; 
+  gap: 25px; 
+}
+
+p{
+    color: white;
+}
+.main{
+    margin:0 auto;
+    width: 80vw;
+    text-align: center ;
+    font-size: xx-large;
+}
+span{
+    color: aqua;
+}
+
+header{
+    background-color: #191c32;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0,5;
+}
+.logo{
+    font-size: large;
+    font-weight: 300;
+}
+#conocimientos{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+#conocimientos img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border: 10px solid #0014a7
+    
+}
+#proyectos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+#proyectos img{
+    width: 10vw;
+    height: 10vw;
+    border: 7px solid aqua;
+    border-radius: 30%;
+
+}#redes img{
+    border-radius: 40%;
+}
+#contacto  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#contacto  div {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+#contacto  label {
+    display: block; 
+    margin-bottom: 5px;
+}
+#contacto  input,
+#contacto  textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#contacto button {
+    background-color: aqua; 
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 200px; 
+}
+footer{
+    width: 100vw;
+    height: 60vh;
+    background-color:  #191c32;
+    color: white;
+    padding: 2mm;
+    align-items: center;
+    justify-content: center;
+}
+.main img{
+    border-radius: 10%;
+    
+}
+   
